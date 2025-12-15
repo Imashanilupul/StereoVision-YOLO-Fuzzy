@@ -4,7 +4,6 @@ import cv2
 cap1 = cv2.VideoCapture(0)   # First camera
 cap2 = cv2.VideoCapture(1)   # Second camera
 
-# Optional: set resolution (you can remove these)
 cap1.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cap1.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 cap2.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
