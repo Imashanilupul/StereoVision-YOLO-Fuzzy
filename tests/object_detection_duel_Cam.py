@@ -3,7 +3,7 @@ from ultralytics import YOLO
 
 # Load YOLO model
 print("Loading YOLO model...")
-model = YOLO('yolov8n.pt')  # Using YOLOv8 nano for speed (can change to yolov8s.pt, yolov8m.pt, etc.)
+model = YOLO('yolov8n.pt')  
 
 # Open two webcam streams
 cap1 = cv2.VideoCapture(0)   # First camera
