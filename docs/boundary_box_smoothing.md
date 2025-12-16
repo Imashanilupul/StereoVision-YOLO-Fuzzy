@@ -1,5 +1,5 @@
 # YOLO Bounding Box Smoothing with Fuzzy Logic
-
+![YOLO Bounding Box Smoothing Architecture](../images/boundary_box_smoothing_architecture.png)
 Ooo okay — **this is a GOOD question**. This is exactly where your projects start to feel *research-y*, not tutorial-y 😄
 Let’s build this **conceptually + practically**, no hand-waving.
 
