@@ -1,16 +1,6 @@
 # YOLO Bounding Box Smoothing with Fuzzy Logic
 ![YOLO Bounding Box Smoothing Architecture](../images/boundary_box_smoothing_architecture.png)
-Ooo okay — **this is a GOOD question**. This is exactly where your projects start to feel *research-y*, not tutorial-y 😄
-Let’s build this **conceptually + practically**, no hand-waving.
 
-You want:
-
-> YOLO bounding boxes → **jittery**
-> Fuzzy logic → **smooth, human-like stabilization**
-
-I’ll explain **how fuzzy smoothing looks**, **what signals you feed**, **what rules you write**, and **where it sits in the pipeline**.
-
----
 
 # 🧠 Core idea (simple words)
 
@@ -64,7 +54,7 @@ You usually smooth **box center**, not corners.
 * `cx, cy` → center of box
 * `w, h` → size of box
 
-You smooth:
+We smooth:
 
 * `Δcx = cx_now - cx_prev`
 * `Δcy = cy_now - cy_prev`
