@@ -1,10 +1,12 @@
 [project]
 name = "stereovision-yolo-fuzzy"
 version = "0.1.0"
-description = "Add your description here"
+description = "Live hand detection with YOLO and fuzzy logic boundary box smoothing"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "opencv-python>=4.12.0.88",
     "ultralytics>=8.3.238",
+    "scikit-fuzzy>=0.4.2",
+    "numpy>=1.24.0",
 ]
