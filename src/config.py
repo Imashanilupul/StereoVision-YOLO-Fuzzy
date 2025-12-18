@@ -10,7 +10,7 @@ PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Model configuration
 MODEL_CONFIG = {
     # Path to trained YOLO model
-    'model_path': os.path.join(PROJECT_ROOT, 'models', 'Yolo', 'best.pt'),
+    'model_path': os.path.join(PROJECT_ROOT, 'models', 'Yolo', 'Koppa_model.pt'),
     
     # Alternative: use a default model if custom model not found
     'fallback_model': 'yolov8n.pt',
