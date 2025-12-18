@@ -1,10 +1,11 @@
 from ultralytics import YOLO
 import cv2
-
+import os
 
 # Load YOLO model
 print("Loading YOLO model...")
-model = YOLO('../models/Yolo/Koppa_model.pt')  
+model_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'models', 'Yolo', 'Koppa_model.pt')
+model = YOLO(model_path)  
 
 # Open two webcam streams
 cap1 = cv2.VideoCapture(0)   # First camera
