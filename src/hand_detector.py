@@ -1,8 +1,3 @@
-"""
-Hand Detection Module
-Wraps YOLO model for hand detection with proper error handling.
-"""
-
 import cv2
 from ultralytics import YOLO
 import numpy as np

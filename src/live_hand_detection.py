@@ -1,8 +1,3 @@
-"""
-Live Hand Detection with YOLO and Fuzzy Logic Smoothing
-Real-time hand detection using camera with adaptive boundary box smoothing.
-"""
-
 import cv2
 import sys
 import time

@@ -1,8 +1,3 @@
-"""
-Side-by-side comparison of raw YOLO vs Fuzzy-smoothed detection.
-This script shows both versions simultaneously for easy comparison.
-"""
-
 import cv2
 import sys
 import time

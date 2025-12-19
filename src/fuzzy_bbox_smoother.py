@@ -1,8 +1,3 @@
-"""
-Fuzzy Logic Bounding Box Smoother
-Implements adaptive smoothing for YOLO detection boxes using fuzzy inference.
-"""
-
 import numpy as np
 import skfuzzy as fuzz
 from skfuzzy import control as ctrl

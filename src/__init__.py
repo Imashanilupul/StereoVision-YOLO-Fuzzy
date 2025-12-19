@@ -1,8 +1,3 @@
-"""
-StereoVision-YOLO-Fuzzy Package
-Live hand detection with YOLO and fuzzy logic boundary box smoothing.
-"""
-
 from .hand_detector import HandDetector
 from .fuzzy_bbox_smoother import FuzzyBBoxSmoother
 from .config import (

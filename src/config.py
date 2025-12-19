@@ -1,7 +1,3 @@
-"""
-Configuration for Hand Detection System
-"""
-
 import os
 
 # Get project root directory
